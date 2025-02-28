@@ -8,7 +8,7 @@
 
 /* header */
 .header-class {
-    background: linear-gradient(90deg, #0b6623, #ffbf00); /* deep green to gold gradient */
+    background: linear-gradient(90deg, #0b6623, #FFD700); /* deep green to gold gradient */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -19,14 +19,13 @@
 
 /* navigation bar */
 .nav-class {
-    position: fixed;
     background-color: #222; /* dark background */
     padding: 15px;
     text-align: center;
 }
 
 .nav-class a {
-    color: #ffbf00; /* gold */
+    color: #FFD700; /* gold */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
@@ -51,7 +50,7 @@
 }
 
 .section-title-class {
-    color: #ffbf00; /* bright gold */
+    color: #FFD700; /* gold */
     font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
@@ -93,7 +92,7 @@
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 2px solid #ffbf00; /* gold border */
+    border: 2px solid #FFD700; /* gold border */
     background-color: #333;
     color: white;
     font-size: 1.1em;
@@ -101,7 +100,7 @@
 
 /* buttons */
 .button-class {
-    background: linear-gradient(45deg, #0b6623, #ffbf00); /* gradient button */
+    background: linear-gradient(45deg, #0b6623, #FFD700); /* gradient button */
     color: white;
     padding: 12px 20px;
     font-size: 1.2em;
@@ -120,7 +119,7 @@
 /* footer */
 .footer-class {
     background-color: #111; 
-    color: #ffbf00; /* gold text */
+    color: #FFD700; /* gold text */
     text-align: center;
     padding: 15px;
     font-size: 1.2em;
