@@ -1,0 +1,128 @@
+/* Bold background with strong contrast */
+.body-class {
+    background-color: #121212; /* Dark background */
+    color: #f1f1f1; /* Light text for contrast */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header: Eye-catching with bold contrast */
+.header-class {
+    background: linear-gradient(90deg, #0b6623, #ffbf00); /* Deep green to gold gradient */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar: High contrast with bold active links */
+.nav-class {
+    background-color: #222; /* Dark background */
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-class a {
+    color: #ffbf00; /* Gold */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-class a:hover,
+.nav-class a.active {
+    color: #0b6623; /* Deep green */
+    text-decoration: underline;
+}
+
+/* Titles: Bold and standout */
+.title-class {
+    color: #0b6623; /* Deep green */
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-title-class {
+    color: #ffbf00; /* Bright gold */
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 3px solid #0b6623;
+    padding-bottom: 5px;
+}
+
+/* Text: High contrast with readability */
+.text-class {
+    color: #f1f1f1; /* Light text */
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Images: Bold borders with a unique effect */
+.image-class {
+    border: 5px solid #0b6623; /* Green border */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(11, 102, 35, 0.5); /* Green glow effect */
+    transition: transform 0.3s ease;
+}
+
+.image-class:hover {
+    transform: scale(1.05);
+}
+
+/* Forms: Strong background with bold input fields */
+.form-class {
+    background-color: #222; /* Dark form background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 191, 0, 0.5); /* Gold glow */
+}
+
+.form-class input,
+.form-class textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ffbf00; /* Gold border */
+    background-color: #333;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Buttons: Bold, bright, and interactive */
+.button-class {
+    background: linear-gradient(45deg, #0b6623, #ffbf00); /* Gradient button */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-class:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 191, 0, 0.8);
+}
+
+/* Footer: Dark with a bold contrast */
+.footer-class {
+    background-color: #111; /* Even darker footer */
+    color: #ffbf00; /* Gold text */
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
