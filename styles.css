@@ -1,15 +1,14 @@
-/* Bold background with strong contrast */
 .body-class {
-    background-color: #121212; /* Dark background */
-    color: #f1f1f1; /* Light text for contrast */
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #121212; /* dark background */
+    color: #f1f1f1; /* light text */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header: Eye-catching with bold contrast */
+/* header */
 .header-class {
-    background: linear-gradient(90deg, #0b6623, #ffbf00); /* Deep green to gold gradient */
+    background: linear-gradient(90deg, #0b6623, #ffbf00); /* deep green to gold gradient */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -18,15 +17,16 @@
     text-transform: uppercase;
 }
 
-/* Navigation Bar: High contrast with bold active links */
+/* navigation bar */
 .nav-class {
-    background-color: #222; /* Dark background */
+    position: fixed;
+    background-color: #222; /* dark background */
     padding: 15px;
     text-align: center;
 }
 
 .nav-class a {
-    color: #ffbf00; /* Gold */
+    color: #ffbf00; /* gold */
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
@@ -36,13 +36,13 @@
 
 .nav-class a:hover,
 .nav-class a.active {
-    color: #0b6623; /* Deep green */
+    color: #0b6623; /* deep green */
     text-decoration: underline;
 }
 
-/* Titles: Bold and standout */
+/* titles*/
 .title-class {
-    color: #0b6623; /* Deep green */
+    color: #0b6623; /* deep green */
     font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 
 .section-title-class {
-    color: #ffbf00; /* Bright gold */
+    color: #ffbf00; /* bright gold */
     font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
@@ -60,7 +60,7 @@
     padding-bottom: 5px;
 }
 
-/* Text: High contrast with readability */
+/* text */
 .text-class {
     color: #f1f1f1; /* Light text */
     font-size: 1.2em;
@@ -68,11 +68,11 @@
     text-align: justify;
 }
 
-/* Images: Bold borders with a unique effect */
+/* image with border */
 .image-class {
-    border: 5px solid #0b6623; /* Green border */
+    border: 5px solid #0b6623; /* green border */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(11, 102, 35, 0.5); /* Green glow effect */
+    box-shadow: 0 0 15px rgba(11, 102, 35, 0.5); /* green glow effect */
     transition: transform 0.3s ease;
 }
 
@@ -80,12 +80,12 @@
     transform: scale(1.05);
 }
 
-/* Forms: Strong background with bold input fields */
+/* forms */
 .form-class {
-    background-color: #222; /* Dark form background */
+    background-color: #222; /* dark form background */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(255, 191, 0, 0.5); /* Gold glow */
+    box-shadow: 0 0 15px rgba(255, 191, 0, 0.5); /* gold glow */
 }
 
 .form-class input,
@@ -93,15 +93,15 @@
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    border: 2px solid #ffbf00; /* Gold border */
+    border: 2px solid #ffbf00; /* gold border */
     background-color: #333;
     color: white;
     font-size: 1.1em;
 }
 
-/* Buttons: Bold, bright, and interactive */
+/* buttons */
 .button-class {
-    background: linear-gradient(45deg, #0b6623, #ffbf00); /* Gradient button */
+    background: linear-gradient(45deg, #0b6623, #ffbf00); /* gradient button */
     color: white;
     padding: 12px 20px;
     font-size: 1.2em;
@@ -117,10 +117,10 @@
     box-shadow: 0 0 20px rgba(255, 191, 0, 0.8);
 }
 
-/* Footer: Dark with a bold contrast */
+/* footer */
 .footer-class {
-    background-color: #111; /* Even darker footer */
-    color: #ffbf00; /* Gold text */
+    background-color: #111; 
+    color: #ffbf00; /* gold text */
     text-align: center;
     padding: 15px;
     font-size: 1.2em;
